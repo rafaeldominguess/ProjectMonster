@@ -76,7 +76,7 @@ function ProductCard({ product }) {
       />
       <div className="flex flex-wrap items-center justify-between gap-3 mt-2 max-w-100 mx-auto">
         <div className="min-w-0">
-          <h3 className="uppercase font-extrabold text-2xl text-black/85">
+          <h3 className="uppercase font-extrabold text-2xl  text-black/85">
             {product.name}
           </h3>
           <span className="text-lg font-semibold text-black/70">
@@ -84,8 +84,8 @@ function ProductCard({ product }) {
           </span>
         </div>
         <div className="flex gap-3 items-center justify-center">
-          <button className="font-semibold py-2 px-4 text-white rounded-full bg-[#558c36] hover:bg-[#4a7a2f] cursor-pointer transition-all duration-300">
-            +Add to Cart
+          <button className="font-semibold text-sm py-2 px-4 text-white rounded-full bg-[#558c36] hover:bg-[#4a7a2f] cursor-pointer transition-all duration-300">
+            +Add Cart
           </button>
           <button
             type="button"
