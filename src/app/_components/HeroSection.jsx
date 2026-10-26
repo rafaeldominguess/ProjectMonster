@@ -20,7 +20,7 @@ export default function HeroSection() {
             <h1 className="text-6xl text-black/85 font-extrabold md:hidden mb-4">
               YOUR <span className="text-[#61A73F]">DAY</span>
             </h1>
-            <div className="w-full flex flex-col items-end md:gap-4">
+            <div className="w-full flex flex-col items-center md:items-end md:gap-4">
               <p className="text-md font-medium mt-4 mb-8 md:mb-0 text-neutral-900 md:max-w-100">
                 A bold burst of energy and refreshing flavour, made for the
                 moments that demand more.
