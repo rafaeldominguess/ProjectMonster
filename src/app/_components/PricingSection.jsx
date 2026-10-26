@@ -14,7 +14,7 @@ const products = [
   {
     image: "/lata_monster_2.png",
     alt: "Segundo produto Monster",
-    name: "Pipeline Punch",
+    name: "Pipe Punch",
     price: "$3.99",
   },
   {
